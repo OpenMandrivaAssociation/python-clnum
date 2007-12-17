@@ -11,7 +11,6 @@ Source0:	%{module}-%{version}.tar.bz2
 License:	GPL
 Group:		Development/Python 
 Url: 		http://calcrpnpy.sourceforge.net/clnum.html
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	cln, python >= 2.0
 BuildRequires:	cln-devel, python-devel >= 2.0
 
