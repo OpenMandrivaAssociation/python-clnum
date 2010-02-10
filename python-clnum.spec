@@ -1,7 +1,7 @@
 %define module	clnum
 %define name	python-%{module}
 %define version 1.6
-%define release 2
+%define release 3
 
 Summary:	Arbitrary precision floating point library for Python
 Name:		%{name}
