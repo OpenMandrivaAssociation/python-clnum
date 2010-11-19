@@ -1,12 +1,12 @@
 %define module	clnum
 %define name	python-%{module}
 %define version 1.6
-%define release 3
+%define rel 4
 
 Summary:	Arbitrary precision floating point library for Python
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel %{release}
+Release:	%mkrel %{rel}
 Source0:	%{module}-%{version}.tar.gz
 License:	GPL
 Group:		Development/Python 
@@ -41,6 +41,7 @@ types.
 %clean
 %__rm -rf %{buildroot}
 
-%files -f INSTALLED_FILES
+%files
 %defattr(-,root,root)
 %doc README COPYING changelog *.html
+%py_platsitedir/*
