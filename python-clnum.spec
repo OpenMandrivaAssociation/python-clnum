@@ -4,7 +4,7 @@
 Summary:	Arbitrary precision floating point library for Python
 Name:		python-%{module}
 Version:	1.6
-Release:	5
+Release:	6
 Source0:	%{module}-%{version}.tar.gz
 License:	GPL
 Group:		Development/Python 
