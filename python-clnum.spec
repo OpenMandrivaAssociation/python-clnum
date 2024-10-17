@@ -8,7 +8,7 @@ Release:	6
 Source0:	%{module}-%{version}.tar.gz
 License:	GPL
 Group:		Development/Python 
-Url: 		http://calcrpnpy.sourceforge.net/clnum.html
+Url: 		https://calcrpnpy.sourceforge.net/clnum.html
 Requires:	cln, python >= 2.0
 BuildRequires:	cln-devel, python-devel >= 2.0
 
